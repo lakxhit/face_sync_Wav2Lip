@@ -24,6 +24,7 @@ Blendmasker extracted from - https://github.com/mapooon/BlendFace during onnx co
 
 Face recognition for specifc face taken from - https://github.com/jahongir7174/FaceID
 
+Full project not given as folder too big ,can the run thr project by following these steps:-
 
 How to run this project:-
 This can be done in cmd
