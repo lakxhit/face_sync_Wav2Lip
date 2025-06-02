@@ -1,0 +1,2 @@
+
+python -W ignore inference_onnxModel_V2.py --checkpoint_path "checkpoints\wav2lip_256.onnx" --face "location of file\Example\.mp4 file" --audio "location of file\Example\.wav file" --outfile "location of file\Result\.mp4 file" --pads 10 --fps 29.97
