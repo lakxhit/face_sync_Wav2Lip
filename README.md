@@ -10,20 +10,6 @@
 
 Can be run on CPU or Nvidia GPU
 
-I've made some modifications such as:
-* New face-detection and face-alignment code. (working for ~ +- 60º head tilt)
-* Four different face enhancers available, adjustable enhancement level .
-* Choose pingpong loop instead of original loop function.
-* Set cut-in/cut-out position to create the loop or cut longer video.
-* Cut-in position = used frame if static is selected.
-* Select the target face.
-* Use two audio files, eg. vocal for driving and full music mix for final output.
-* This version does not crash if no face is detected, it just continues ...
-
-Type --help for all commandline parameters
-
-.
- 
 Model download - https://drive.google.com/drive/folders/1BGl9bmMtlGEMx_wwKufJrZChFyqjnlsQ?usp=sharing  
 
 Original wav2lip - https://github.com/Rudrabha/Wav2Lip
@@ -38,8 +24,17 @@ Blendmasker extracted from - https://github.com/mapooon/BlendFace during onnx co
 
 Face recognition for specifc face taken from - https://github.com/jahongir7174/FaceID
 
-.
 
-.
+How to run this project:-
+This can be done in cmd
+Download the zip file,extract it 
+Make 2 folders:-1.Example-containing audio(.wav) of a language and video_(.mp4) which you want to sync 2.Result:- Folder where result will be store after running
+This project uses cuda so make sure you have downloaded it
+Download the requirement.txt from the folder
+Download models from the above link (Model download),and place them in blendmasker folder ,enhancers and face_occluder
+Run python file inference_onnxModel_V2 in cmd where your folder is present 
+Copy the code from the Code file in git and paste it 
+After running select or crop region to sync with audio
+The synchronized video is then saved in result folder
 
 
